@@ -426,7 +426,7 @@ end
     are {i not} the same as arrays.  They are defined by the following ADT.
 
     {[
-    type 'a t = 'a list =
+    type 'a list =
     | []
     | (::) of 'a * 'a list
 
