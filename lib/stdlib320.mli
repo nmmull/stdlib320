@@ -168,10 +168,10 @@ val abs_float : float -> float
 val not : bool -> bool
 (** Boolean negation *)
 
-val ( && ) : bool -> bool -> bool
+external ( && ) : bool -> bool -> bool = "%sequand"
 (** Boolean conjunction (and) *)
 
-val ( || ) : bool -> bool -> bool
+external ( || ) : bool -> bool -> bool = "%sequor"
 (** Boolean disjunction (or) *)
 
 (** {1 Comparisons}
